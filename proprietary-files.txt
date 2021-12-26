@@ -826,9 +826,6 @@ vendor/lib/libsn100u_fw.so
 # NFC_NQ - from LA.UM.9.12.r1-10800-SMxx50.0 
 vendor/bin/nqnfcinfo|22d7a3feef0f51f3d5fceb197264d44e07c9e736
 
-# ODM feature list
-odm/etc/odm_feature_list
-
 # OMX
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
