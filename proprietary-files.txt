@@ -754,6 +754,7 @@ vendor/etc/inparm/irissoft/inParm8_a.txt
 vendor/etc/inparm/irissoft/inParm8_b.txt
 vendor/etc/inparm/irissoft/inParm8_c.txt
 vendor/etc/inparm/irissoft/mcfCheck.txt
+vendor/etc/irissoft.fw
 -vendor/etc/vintf/manifest/vendor.pixelworks.hardware.display.iris-service.xml
 -vendor/etc/vintf/manifest/vendor.pixelworks.hardware.feature.irisfeature-service.xml
 vendor/lib64/libpwiriscalibrate.so
