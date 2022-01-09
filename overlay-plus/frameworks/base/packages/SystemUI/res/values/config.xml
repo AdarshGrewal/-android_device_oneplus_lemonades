@@ -16,6 +16,9 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Default for LineageSettings.Secure.VOLUME_PANEL_ON_LEFT -->
-    <bool name="def_volume_panel_on_left">true</bool>
+    <!-- Allow devices override audio panel location to the left side -->
+    <bool name="config_audioPanelOnLeftSide">true</bool>
+
+    <!-- Color of the FOD view -->
+    <color name="config_fodColor">#ffffe6</color>
 </resources>
