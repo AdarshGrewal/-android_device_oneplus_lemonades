@@ -173,15 +173,18 @@ debug.sf.high_fps_late_sf_phase_offset_ns=-4000000
 debug.sf.hw=0
 debug.sf.latch_unsignaled=1
 persist.demo.hdmirotationlock=false
-persist.sys.sf.color_mode=0
-persist.sys.sf.color_saturation=1.0
-persist.sys.sf.native_mode=0
 ro.gfx.driver.0=com.oneplus.gpudrivers.kona.api30
 ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.kona.api30
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.opengles.version=196610
 vendor.gralloc.disable_ubwc=0
+vendor.display.qdcm.mode_combine=1
+
+# Display - Set color mode to Adaptive by default
+persist.sys.sf.color_saturation=1.0
+persist.sys.sf.native_mode=2
+persist.sys.sf.color_mode=9
 
 # Incremental FS
 ro.incremental.enable=true
