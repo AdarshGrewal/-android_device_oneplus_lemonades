@@ -38,7 +38,8 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-plus
 
 PRODUCT_PACKAGES += \
-    SettingsOverlayRefreshRate
+    SettingsOverlayRefreshRate \
+    OnePlusDozeOverlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
