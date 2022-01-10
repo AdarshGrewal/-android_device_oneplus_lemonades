@@ -38,8 +38,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-plus
 
 PRODUCT_PACKAGES += \
-    SettingsOverlayRefreshRate \
-    OnePlusDozeOverlay
+    SettingsOverlayRefreshRate
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
@@ -291,10 +290,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@2.0.vendor \
     vendor.qti.hardware.display.mapper@3.0.vendor \
     vendor.qti.hardware.display.mapper@4.0.vendor
-
-# Doze
-PRODUCT_PACKAGES += \
-    OnePlusDoze
 
 # DRM
 PRODUCT_PACKAGES += \
