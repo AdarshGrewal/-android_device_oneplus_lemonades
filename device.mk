@@ -474,6 +474,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.oneplus
 
+PRODUCT_PACKAGES += \
+    TouchGestures
+
 # tri-state-key
 PRODUCT_PACKAGES += \
     KeyHandler \
